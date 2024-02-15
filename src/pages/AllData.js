@@ -13,7 +13,7 @@ const AllData = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('/all'); // Replace '/api/data' with your actual API endpoint
+      const response = await fetch('https://betulerenelbankappipa.onrender.com/all'); // Replace '/api/data' with your actual API endpoint
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

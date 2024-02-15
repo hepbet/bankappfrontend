@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:3001",
+  "proxy": "https://betulerenelbankappipa.onrender.com",
   "name": "lastex",
   "version": "0.1.0",
   "private": true,
